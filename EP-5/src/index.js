@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import Header from "./Header";
+import Header from "./components/Header";
 
 import "./index.css";
-import Body from "./Body";
+import Body from "./components/Body";
 
 const AppLayout = () => {
   return (

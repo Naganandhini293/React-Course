@@ -1,5 +1,5 @@
 import React from "react";
-import {RESTAURANT_IMAGE_URL} from "./utils/constants"
+import {RESTAURANT_IMAGE_URL} from "../utils/constants"
 
 export default function RestarauntCard(props) {
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } =

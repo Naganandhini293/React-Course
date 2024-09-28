@@ -1,4 +1,4 @@
-import AppLogo from "../asset/app-logo.png"
+import AppLogo from "../../asset/app-logo.png"
 export default  Header = () => {
   return (
     <div className="header-ctr">

@@ -1,8 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import RestarauntCard from './RestarauntCard'
-import { restaurauntMockData } from './utils/mockData';
-
+import { restaurauntMockData } from '../utils/mockData';
 
 export default function () {
     const [restaurauntData , setRestaurauntData] = useState(restaurauntMockData)
