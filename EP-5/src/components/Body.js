@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import RestarauntCard from "./RestarauntCard";
 
 import { SWIGGIY_API_URL } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 export default function () {
   const [restaurauntData, setRestaurauntData] = useState([]);
@@ -66,7 +67,10 @@ export default function () {
 
       <div className="restauraunt-list-ctr">
         {filteredRestrauntData.map((data) => {
-          return <RestarauntCard key={data?.info.id} resData={data} />;
+          return <Link to={`/restaurant/${data?.info.id}`}>
+          <RestarauntCard key={data?.info.id} resData={data} />
+        </Link>
+        
         })}
       </div>
     </div>
