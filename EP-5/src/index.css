@@ -41,3 +41,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.user-details-ctr{
+    border: 2px solid black;
+}
